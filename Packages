@@ -1,14 +1,17 @@
 Package: jzplusplus.OkSiri
-Version: 1.1-1
+Version: 1.0-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, libstatusbar, com.a3tweaks.flipswitch
+Replaces: org.thebigboss.oksiri
 Filename: debs//jzplusplus.OkSiri_1.1_iphoneos-arm.deb
-Size: 11266486
-MD5sum: 5759ec3044a3e155be7b48c409d1066a
-SHA1: 0a7e1e5733807f88a80711e179dd4fea0d9c2552
-SHA256: 5e7ce755de85e500bb324e3e777ef05eef614ffbe0557258026a9cb3c93ad608
+Size: 11268128
+MD5sum: 2ea029cd902ce26322c4953761a69fde
+SHA1: c1ec2df0df8ef80538a913439772a1f4ea40605a
+SHA256: 780b1fda5399dd984a089b96ab66e4480511cbe0747762f60e474ada9d77d57b
 Section: System
 Priority: optional
+Homepage: https://github.com/jzplusplus/OkSiri
+Description: Beta release for OkSiri
 Author: Jay Zuerndorfer
 Name: OkSiri
 
