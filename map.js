@@ -74,11 +74,11 @@ function codeAddress(event) {
       });
 
     } else {
-      console.log('Geocode for \"' + query + '\"was not successful for the following reason: ' + status);
-      if(status = "OVER_QUERY_LIMIT")
+      console.log('Geocode for \"' + query + '\" was not successful for the following reason: ' + status);
+      if(status == "OVER_QUERY_LIMIT")
       {
         i--;
-        delay += 1;
+        delay += 2;
       }
     }
 
