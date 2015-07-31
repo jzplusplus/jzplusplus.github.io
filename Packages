@@ -1,17 +1,27 @@
 Package: jzplusplus.OkSiri
 Version: 1.0-1
-Architecture: iphoneos-arm
+Priority: optional
+Section: System
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, libstatusbar, com.a3tweaks.flipswitch
 Replaces: org.thebigboss.oksiri
+Architecture: iphoneos-arm
 Filename: debs//jzplusplus.OkSiri_1.1_iphoneos-arm.deb
 Size: 11268128
 MD5sum: 2ea029cd902ce26322c4953761a69fde
-SHA1: c1ec2df0df8ef80538a913439772a1f4ea40605a
-SHA256: 780b1fda5399dd984a089b96ab66e4480511cbe0747762f60e474ada9d77d57b
-Section: System
-Priority: optional
-Homepage: https://github.com/jzplusplus/OkSiri
 Description: Beta release for OkSiri
-Author: Jay Zuerndorfer
-Name: OkSiri
+homepage: https://github.com/jzplusplus/OkSiri
+name: OkSiri
+author: Jay Zuerndorfer
+
+Package: jzplusplus.RealMute
+Version: 1.0-1
+Priority: optional
+Section: Addons (Flipswitch)
+Depends: firmware (>= 8.0), mobilesubstrate, com.a3tweaks.flipswitch
+Architecture: iphoneos-arm
+Filename: debs//jzplusplus.RealMute_1.0-1_iphoneos-arm.deb
+Size: 9108
+MD5sum: ebeee3d75a470ec7f4320bc48daa2c6b
+name: RealMute
+author: Jay Zuerndorfer
 
