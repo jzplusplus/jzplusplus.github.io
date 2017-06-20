@@ -1,25 +1,43 @@
+Package: jzplusplus.ActIf-2
+Version: 1.0-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0), mobilesubstrate, libactivator
+Replaces: org.bigboss.actif
+Filename: debs/jzplusplus.ActIf-2_1.0-1_iphoneos-arm.deb
+Size: 318216
+MD5sum: 62421f361771ffea127f3abb32e282b7
+SHA1: bc11e760b72608d6e658fc0ed5c3c4d54072a37b
+SHA256: 6f8ff8def1f00abfbdb9e34fba6fce059a4571a7c03deaf7029fcf23843ba53a
+Section: System
+Priority: optional
+Author: Jay Zuerndorfer
+Name: ActIf 2
+
 Package: jzplusplus.OkSiri
 Version: 2.0-1
-Priority: optional
-Section: System
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, libstatusbar, com.a3tweaks.flipswitch
-Replaces: org.thebigboss.oksiri
 Architecture: iphoneos-arm
-Filename: debs//jzplusplus.OkSiri_2.0-1_iphoneos-arm.deb
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, libstatusbar, com.a3tweaks.flipswitch
+Filename: debs/jzplusplus.OkSiri_2.0-1_iphoneos-arm.deb
 Size: 8392174
 MD5sum: 6e72fb0c8cdb9c8965a5e1e1afc60531
-author: Jay Zuerndorfer
-name: OkSiri
+SHA1: effc2751dd0778218395ce8e2c24fdf281c37c5b
+SHA256: b54d0cdafa8facb9d647bb6df80cd9c55486a01a4fe97478fd269d6c1d0b1cc4
+Section: System
+Priority: optional
+Author: Jay Zuerndorfer
+Name: OkSiri
 
 Package: jzplusplus.RealMute
 Version: 1.0-1
-Priority: optional
-Section: Addons (Flipswitch)
-Depends: firmware (>= 8.0), mobilesubstrate, com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
-Filename: debs//jzplusplus.RealMute_1.0-1_iphoneos-arm.deb
+Depends: firmware (>= 8.0), mobilesubstrate, com.a3tweaks.flipswitch
+Filename: debs/jzplusplus.RealMute_1.0-1_iphoneos-arm.deb
 Size: 9108
 MD5sum: ebeee3d75a470ec7f4320bc48daa2c6b
-author: Jay Zuerndorfer
-name: RealMute
+SHA1: 421e194424163646652356de8ae406981659d197
+SHA256: 62b85299874e5359cc8e8f3ceb31bac9359762f94a49773709a2184412a92019
+Section: Addons (Flipswitch)
+Priority: optional
+Author: Jay Zuerndorfer
+Name: RealMute
 
