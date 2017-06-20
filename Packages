@@ -1,13 +1,13 @@
 Package: jzplusplus.ActIf-2
-Version: 1.0-1
+Version: 1.1-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 9.0), mobilesubstrate, libactivator
 Replaces: org.bigboss.actif
-Filename: debs/jzplusplus.ActIf-2_1.0-1_iphoneos-arm.deb
-Size: 318216
-MD5sum: 62421f361771ffea127f3abb32e282b7
-SHA1: bc11e760b72608d6e658fc0ed5c3c4d54072a37b
-SHA256: 6f8ff8def1f00abfbdb9e34fba6fce059a4571a7c03deaf7029fcf23843ba53a
+Filename: debs/jzplusplus.ActIf-2_1.1-1_iphoneos-arm.deb
+Size: 318220
+MD5sum: 2ff754710ca378f9ef6c98374351da1f
+SHA1: 20aef8ff6177368a422f30426d35fb1cddb481c2
+SHA256: 41ce6d37b0ea45cf8e0985cb66ab272d920b437a8c0a51502d5ff0218ef2f79c
 Section: System
 Priority: optional
 Author: Jay Zuerndorfer
