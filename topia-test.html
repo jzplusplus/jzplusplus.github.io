@@ -1,0 +1,17 @@
+<html>
+
+    <body>
+        <div id="count">0</div>
+        <script>
+            let x = parseInt(localstorage.getItem("count"))
+
+            if(x == null) x = 0;
+            x++;
+
+            document.getElementById("count").textContent = x;
+
+            localstorage.setItem("count", x);
+        </script>
+    </body>
+
+</html>
