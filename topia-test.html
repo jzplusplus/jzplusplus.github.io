@@ -5,7 +5,7 @@
         <script>
             let x = parseInt(localStorage.getItem("count"))
 
-            if(x == null) x = 0;
+            if(x == null || isNaN(x)) x = 0;
             x++;
 
             document.getElementById("count").textContent = x;
